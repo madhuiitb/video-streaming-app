@@ -4,13 +4,13 @@ import UploadPage from "./pages/UploadPage";
 import LibraryPage from "./pages/LibraryPage";
 import DashboardPage from "./pages/DashboardPage";
 import { SocketProvider } from "./context/SocketProvider";
-import Navbar from "./components/Layout/Navbar";
+import NavigationBar from "./components/Layout/NavigationBar";
 
 export default function App() {
   return (
     <SocketProvider>
       <div className="flex flex-col min-h-screen">
-        <Navbar />
+        <NavigationBar />
         <main className="flex-1 bg-gray-50">
           <Routes>
             <Route path="/" element={<UploadPage />} />
