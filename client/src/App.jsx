@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import UploadPage from "./pages/uploadPage";
+import UploadPage from "./pages/UploadPage";
 import LibraryPage from "./pages/LibraryPage";
 import DashboardPage from "./pages/DashboardPage";
 import { SocketProvider } from "./context/SocketProvider";
