@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import UploadPage from "./pages/UploadPage";
+import VideoUploadPage from "./pages/VideoUploadPage";
 import LibraryPage from "./pages/LibraryPage";
 import DashboardPage from "./pages/DashboardPage";
 import { SocketProvider } from "./context/SocketProvider";
@@ -13,7 +13,7 @@ export default function App() {
         <NavigationBar />
         <main className="flex-1 bg-gray-50">
           <Routes>
-            <Route path="/" element={<UploadPage />} />
+            <Route path="/" element={<VideoUploadPage />} />
             <Route path="/library" element={<LibraryPage />} />
             <Route path="/dashboard" element={<DashboardPage />} />
           </Routes>

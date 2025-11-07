@@ -2,7 +2,7 @@ import React, { useState, useContext, useEffect } from "react";
 import videoService from "../services/videoService";
 import { SocketContext } from "../context/SocketContext";
 
-export default function UploadPage() {
+const VideoUploadPage = ()=> {
   const socket = useContext(SocketContext);
   const [file, setFile] = useState(null);
   const [progress, setProgress] = useState(0);
@@ -80,3 +80,5 @@ export default function UploadPage() {
     </div>
   );
 }
+
+export default VideoUploadPage;
