@@ -1,0 +1,12 @@
+# Node
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Environment
+.env
+
+# Uploads
+uploads/
