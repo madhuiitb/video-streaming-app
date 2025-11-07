@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-export default function Navbar() {
+const Navbar = ()=> {
   return (
     <header className="bg-blue-600 text-white shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
@@ -36,3 +36,4 @@ export default function Navbar() {
     </header>
   );
 }
+export default Navbar;
